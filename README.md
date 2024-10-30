@@ -14,7 +14,7 @@ pycocotools instalowałem inną metodą - ta ze skryptu miała jakiś problem (h
 pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 ```
 
-Ogólnie bazowałem na tym repo: https://github.com/ahmedfgad/Mask-RCNN-TF2/tree/master. Przynajmniej na razie model (plik h5) musi znajdować się w tym samym folderze co folder mrcnn i detector.py.
+Ogólnie bazowałem na tym repo: https://github.com/ahmedfgad/Mask-RCNN-TF2/tree/master. Link do pobrania modelu: https://github.com/ahmedfgad/Mask-RCNN-TF2/releases/download/v3.0/mask_rcnn_coco.h5. Przynajmniej na razie model (plik h5) musi znajdować się w tym samym folderze co folder mrcnn i detector.py.
 
 Póki co na pewno powinna działać komenda do ewaluacji modelu z detector.py (jako model podawałem coco). Komendę do trenowania sprawdziłem tylko do momentu rozpoczęcia samego trenowania, bo nie widziało mi się czekać kilkanaście godzin aż mój komputer to przemieli dla jednej epoki xD - musimy to sprawdzić na jakimś klastrze później. Jeśli chcecie odpalić to na kompie to polecam podmienić linijkę 2834 i 2835 w model.py na to co jest w komentarzu. Równoległy trening modelu zjadał mi cały procesor i RAM co wywalało proces, ale przy jednym wątku dawał jakoś radę.
 
