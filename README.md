@@ -1,6 +1,6 @@
 ## Przygotowanie
 
-Python 3.7.4
+Python 3.7.9
 
 Ja musiałem jeszcze zainstalować wcześniej libsqlite3-dev 
 
